@@ -9,6 +9,7 @@
     "cron-job": "node ./assets/js/newDayupdate.js",
     "scss-watch": "sass --no-source-map --watch --update --style=expanded assets/scss:assets/css",
     "start": "npm-run-all --parallel scss-watch start-server cron-job"
+    
   },
   "keywords": [
     "Habit",
