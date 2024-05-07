@@ -4,7 +4,7 @@
     $('#startButton').click(function(event)
     {
     event.preventDefault();
-    window.location.href = "http://localhost:9000/habits/dailyView";
+    window.location.href = `${process.env.BASE_URL}/habits/dailyView`;
     }
 )
 }
